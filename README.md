@@ -6,6 +6,6 @@ In this project, I built a frontend for an **online store** using **React.js** a
 3. **Lastly, the user can choose the currency for the entire application.**
 
 
-FIND LIVE SITE HERE=> [ONLINE STORE](https://realgordon.github.io/codeacademy-store/)
+FIND LIVE SITE HERE=> [ONLINE STORE](https://divinegordon.github.io/redux-online-store/)
 
 ![alt siteview](images/shopping-cart-demo.gif)
