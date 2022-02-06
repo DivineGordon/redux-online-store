@@ -169,7 +169,8 @@ input.quantity {
   padding: 24px;
   border-radius: var(--border-radius);
   width: 100%;
-  max-width: 300px;
+  max-width: 250px;
+  max-height: 250px;
   box-sizing: border-box;
 }
 
