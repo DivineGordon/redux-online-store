@@ -13,9 +13,11 @@ export function calculatePrice(price, currency) {
   
   export function calculateTotal(cart, currency) {
     let totalUSD = 0;
-    Object.keys(cart).forEach((itemName) => {
+   /* Object.keys(cart).forEach((itemName) => {
       totalUSD += cart[itemName].price * cart[itemName].quantity;
-    });
+    });*/
+    totalUSD=Object.keys(cart).reduce(
+      (prevTotal,item)=>prevTotal+cart[item].amount,0)
     return calculatePrice(totalUSD, currency).toFixed(2);
   }
   
